@@ -25,6 +25,7 @@
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
         <dashboard.version>1.4.6.RELEASE</dashboard.version>
         <actuator.version>1.4.6.RELEASE</actuator.version>
+        <zuul.version>1.4.0.RELEASE</zuul.version>
     </properties>
 
     <dependencyManagement>

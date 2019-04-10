@@ -1,4 +1,4 @@
-package top.lajijson.serviceproduct.controller;
+package top.lajijson.serviceproduct.endpoint;
 
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
-public class ProductController {
+public class ProductEndpoint {
 
     @Value("${server.port}")
     private int serverPort;
