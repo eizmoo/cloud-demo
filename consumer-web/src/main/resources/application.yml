@@ -1,0 +1,11 @@
+server:
+  port: 8131
+
+spring:
+  application:
+    name: CONSUMER-WEB
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8120/eureka

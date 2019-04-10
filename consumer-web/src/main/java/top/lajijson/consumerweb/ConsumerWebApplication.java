@@ -1,16 +1,17 @@
-package top.lajijson.servicehello;
+package top.lajijson.consumerweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
+@EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ServiceHelloApplication {
+public class ConsumerWebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceHelloApplication.class, args);
+        SpringApplication.run(ConsumerWebApplication.class, args);
     }
 
 }
