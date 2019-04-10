@@ -22,6 +22,9 @@
         <eureka.version>1.4.6.RELEASE</eureka.version>
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <feign.version>1.4.6.RELEASE</feign.version>
+        <hystrix.version>1.4.6.RELEASE</hystrix.version>
+        <dashboard.version>1.4.6.RELEASE</dashboard.version>
+        <actuator.version>1.4.6.RELEASE</actuator.version>
     </properties>
 
     <dependencyManagement>

@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import top.lajijson.consumerweb.feign.service.fallback.ProductServiceFallback;
 
-@FeignClient("SERVICE-PRODUCT")
+@FeignClient(name = "SERVICE-PRODUCT", fallback = ProductServiceFallback.class)
 public interface ProductService {
 
     @RequestMapping("/server/info")
