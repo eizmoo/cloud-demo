@@ -1,6 +1,5 @@
 package top.lajijson.consumerweb.controller;
 
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import top.lajijson.consumerweb.feign.service.ProductService;

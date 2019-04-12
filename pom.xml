@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.15.RELEASE</version>
+        <version>1.5.20.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>top.lajijson</groupId>
@@ -25,7 +25,7 @@
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
         <dashboard.version>1.4.6.RELEASE</dashboard.version>
         <actuator.version>1.4.6.RELEASE</actuator.version>
-        <zuul.version>1.4.0.RELEASE</zuul.version>
+        <zuul.version>1.4.6.RELEASE</zuul.version>
     </properties>
 
     <dependencyManagement>
@@ -58,12 +58,12 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>27.1-jre</version>
-        </dependency>
+        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
