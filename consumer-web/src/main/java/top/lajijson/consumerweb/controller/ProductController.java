@@ -11,6 +11,10 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
+    @GetMapping("/info")
+    public String info() {
+        return this.productService.serverInfo();
+    }
 
     @GetMapping
     public String list() {
