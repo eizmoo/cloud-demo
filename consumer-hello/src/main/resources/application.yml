@@ -2,7 +2,7 @@ server:
   port: 8122
 spring:
   application:
-    name: CONSUMER_HELLO
+    name: CONSUMER-HELLO
 eureka:
   client:
     service-url:

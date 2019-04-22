@@ -10,9 +10,13 @@ eureka:
     service-url:
       defaultZone: http://localhost:8120/eureka
 
+# prefix是uri前缀，带上
 zuul:
+  prefix: /api
   routes:
     CONSUMER-WEB: /product/**
-    hello:
-      path: /hello/**
-      service-id: service-hello
+    SERVICE-HELLO: /hello/**
+
+management:
+  security:
+    enabled: false
