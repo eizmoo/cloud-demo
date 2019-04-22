@@ -10,3 +10,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8120/eureka
 
+zuul:
+  routes:
+    CONSUMER-WEB: /product/**
+    hello:
+      path: /hello/**
+      service-id: service-hello
